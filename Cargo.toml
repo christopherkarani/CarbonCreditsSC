@@ -1,0 +1,13 @@
+[package]
+name = "carbon_credits"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+soroban-sdk = { version = "0.1", features = ["testutils"] }
+
+[dev-dependencies]
+soroban-sdk = { version = "0.1", features = ["testutils"] }
+
+[features]
+default = []
